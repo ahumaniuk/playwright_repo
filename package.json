@@ -1,0 +1,21 @@
+{
+  "name": "playwright_repo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test.js",
+  "type":"commonjs",
+  "scripts":  {
+
+
+    "test": "npx playwright test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.42.1",
+    "@types/node": "^20.11.28",
+    "playwright": "^1.42.1"
+  },
+  "dependencies": {}
+}
