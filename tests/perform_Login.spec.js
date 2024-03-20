@@ -6,7 +6,7 @@ test.describe('Test Suite1', () => {
 
 test.beforeEach(async ({ page }) => {
   // Go to the starting url before each test and perform login
-  await page.goto('https://www.saucedemo.com/');
+  await page.goto('');
   await page.locator("#user-name").click();
   await page.locator("#user-name").fill('standard_user');
   await page.locator("#password").click();

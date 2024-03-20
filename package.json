@@ -5,9 +5,9 @@
   "main": "test.js",
   "type":"commonjs",
   "scripts":  {
-    "test": "playwright test",
-    "build": "webpack",
-    "start": "node server.js"
+
+
+    "test": "npx playwright test"
   },
   "keywords": [],
   "author": "",
